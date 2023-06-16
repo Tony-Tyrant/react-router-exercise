@@ -8,8 +8,8 @@ import {Link, useSearchParams} from 'react-router-dom'
 
 export default function Articles () {
   const articles = useSelector(selectArticles);
-  const [searchParams, setSearchParams] = useSearchParams();
   // eslint-disable-next-line react-hooks/exhaustive-deps
+  const [searchParams, setSearchParams] = useSearchParams();
   // Grab URLSearchParams object from useSearchParams hook
   
   // Get the queryParams from object returned from useSearchParams and set to `title`
